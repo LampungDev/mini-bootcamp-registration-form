@@ -81,7 +81,7 @@ function App() {
 
   return (
     <div className="register-form">
-      <img src="https://masterofweb-be-api.masterof.website/uploads/wpl_1067878abf.jpg" alt="Logo Web Programming Lampung" height={40} />
+      <img src="https://masterofweb-be-api.masterof.website/uploads/wpl_1067878abf.jpg?updated_at=2023-05-21T13:57:24.964Z" alt="Logo Web Programming Lampung" height={40} />
       <label style={{ padding: 10 }}>X</label>
       <img src="https://masterof.website/static/media/logo.c459a5fd2b049d56b55c.png" alt="Logo Masterof Website" height={40} />
       <br />
