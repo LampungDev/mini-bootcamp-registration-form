@@ -64,8 +64,6 @@ function App() {
   const handleEducationChanged = (e) => {
     const value = e.target.value;
 
-    console.log("value", value);
-
     if (value === 'S1' || value === "S2") return setStrataSelected(true);
     if (value !== 'S1' || value !== 'S2') return setStrataSelected(false);
   }
@@ -73,10 +71,8 @@ function App() {
   const handleExperienceChanged = (e) => {
     const value = e.target.value;
 
-    console.log(value);
-
     if (value === 'Ada') return setExperienceSelected(true);
-    if (value === 'Belum Ada') return setExperienceSelected(false);
+    if (value === 'Tidak Ada') return setExperienceSelected(false);
   }
 
   return (
